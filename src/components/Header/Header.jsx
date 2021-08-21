@@ -19,7 +19,7 @@ const Header = () => {
             <Typography variant="h6" className={classes.title}>
               Explore New Places
             </Typography>
-            <Autocomplete>
+            {/* <Autocomplete>
               <div className={classes.search}>
                 <div className={classes.searchIcon}>
                   <SearchIcon />
@@ -32,7 +32,7 @@ const Header = () => {
                   }}
                 />
               </div>
-            </Autocomplete>
+            </Autocomplete> */}
           </Box>
         </Toolbar>
       </AppBar>
